@@ -12,6 +12,11 @@ public class BasicPerson implements Person {
     public BasicPerson() {
     }
 
+    public BasicPerson(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+
     public BasicPerson(String name, String surname, Gender gender, Region region) {
         this.name = name;
         this.surname = surname;

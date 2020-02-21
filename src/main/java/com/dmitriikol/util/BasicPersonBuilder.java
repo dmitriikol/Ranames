@@ -3,12 +3,14 @@ package com.dmitriikol.util;
 
 import com.dmitriikol.BasicPerson;
 import com.dmitriikol.annotation.Process;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.stream.Collectors;
+
 
 public class BasicPersonBuilder {
 

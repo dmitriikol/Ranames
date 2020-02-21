@@ -1,6 +1,7 @@
 package com.dmitriikol.util;
 
 import com.dmitriikol.annotation.Process;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 import java.util.stream.Collectors;
