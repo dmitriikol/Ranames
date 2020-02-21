@@ -1,7 +1,6 @@
 package com.dmitriikol.util;
 
 import com.dmitriikol.annotation.Process;
-import org.springframework.stereotype.Component;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -17,6 +16,9 @@ public class Names {
     private static Map<String, Gender> germanNames = new HashMap<>();
     private static Map<String, Gender> polandNames = new HashMap<>();
 
+    /*
+    the collection of names should be updated
+     */
     private static String[] russianMaleNamesArray = {"Александр", "Максим", "Иван", "Артем", "Дмитрий",
                                                     "Никита", "Махаил", "Даниил", "Егор", "Андрей",
                                                     "Петр", "Роман", "Олег", "Борис", "Захар",

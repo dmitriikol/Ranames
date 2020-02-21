@@ -5,6 +5,9 @@ import java.util.List;
 
 public class Surnames {
 
+    /*
+    the collection of surnames should be updated
+     */
     private static String[] russianSurnames = {"Иванов", "Смирнов", "Кузнецов", "Попов", "Васильев",
                                                 "Петров", "Соколов", "Михайлов", "Новиков", "Федоров",
                                                 "Смирнов", "Кузнецов", "Васильев", "Соколов", "Морозов",

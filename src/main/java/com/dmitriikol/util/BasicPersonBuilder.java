@@ -3,7 +3,6 @@ package com.dmitriikol.util;
 
 import com.dmitriikol.BasicPerson;
 import com.dmitriikol.annotation.Process;
-import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,12 +12,6 @@ import java.util.stream.Collectors;
 
 
 public class BasicPersonBuilder {
-
-    /*
-        @autowired не работает, разобраться
-     */
-//    @Autowired
-//    private static Names names;
 
     public static List<BasicPerson> createBasicPersons(int amount) {
         Names names = new Names();
@@ -57,7 +50,6 @@ public class BasicPersonBuilder {
         return basicPersonList;
     }
 
-    @Process
     public static List<BasicPerson> createBasicPersons(int amount, Gender gender) {
         Names names = new Names();
         List<BasicPerson> basicPersonList = new ArrayList<>();
@@ -76,7 +68,6 @@ public class BasicPersonBuilder {
         return basicPersonList;
     }
 
-    @Process
     public static List<BasicPerson> createBasicPersons(int amount, Region region, Gender gender) {
         Names names = new Names();
         List<BasicPerson> basicPersonList = new ArrayList<>();
