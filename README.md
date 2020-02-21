@@ -12,13 +12,13 @@ Build using Maven.
 4. localhost:8080/ranames
 
 #### Basic usage
-    https://uinames.com/api/
+    http://localhost:8080/ranames/api
     ---
     {
-      "name":"John",
-      "surname":"Doe",
-      "gender":"male",
-      "region":"United States"
+    "name": "Romane",
+    "surname": "Leriy",
+    "gender": "FEMALE",
+    "region": "FRANCE"
     }
 #### Parameters
 Number of names to return:
@@ -30,7 +30,7 @@ Limit results to the `male` or `female` gender:
 Region-specific results:
 <pre>http://localhost:8080/ranames/api<strong>?amount=10&region=france</strong></pre>
 
-Region and gender specific results::
+Region and gender specific results:
 <pre>http://localhost:8080/ranames/api<strong>?amount=10&region=france&gender=male</strong></pre>
 
 
