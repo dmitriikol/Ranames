@@ -5,7 +5,7 @@ A simple tool to generate fake names.
  Compiling and starting
 ------------------------------------------------------------
 
-DoodleKeep is build using Maven.
+Build using Maven.
 1. mvn package
 2. cd target
 3. java -jar Ranames-1.0-SNAPSHOT.jar
